@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1>Example 1:</h1>
+    <p>This is an audio demo. I am reading this paragraph to show some type of use for this Audio API.</p>
+    <audio id="text" src="/Media/ttsMP3.com_VoiceText_2022-2-23_11_41_56.mp3"crossorigin="anonymous">
+    </audio>
+    <button id="btn1" data-playing="false" role="switch" aria-checked="false">
+        <span>Play/Pause</span>
+    </button>
+    <input type="range" id="volume1" min="-1" max="1" value="0" step="0.01">
+    <div class="whaleExample">
+        <h1>Example 2:</h1>
+        <p>The whale is one of the most interesting creatures in the ocean. It is one of the largest and oldest animals on Earth. 
+            They can be found in every ocean with a wide range of sized from small sperm whales to massive blue whales. 
+            The sounds of the whale can be seen as soothing and sometimes seem out of this world.</p>
+        <img src="/Media/humpback-whale-shutterstock-craig-lambert-photography.jpg">    
+    </div> 
+    <p>Sounds of the whale</p>
+    <audio id="whale" src="/Media/pesnja-kita.mp3"crossorigin="anonymous">
+    </audio>
+    <button id="btn2" data-playing="false" role="switch" aria-checked="false">
+        <span>Play/Pause</span>
+    </button>
+    <input type="range" id="volume2" min="-1" max="1" value="0" step="0.01">
+    <script src="demo2.js"></script>
+
+</body>

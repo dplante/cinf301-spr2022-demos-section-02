@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body>
+    <audio id="song" src="/Media/Nanahoshi Kangengakudan - Meikaruza (instrumental).mp3" crossorigin="anonymous">
+    </audio>
+    <button data-playing="false" role="switch" aria-checked="false">
+        <span>Play/Pause</span>
+    </button>
+    <p>Volume</p>
+    <input type="range" id="volume" min="-1" max="1" value="0" step="0.01">
+    <p>Panning</p>
+    <input type="range" id="panner" min="-1" max="1" value="0" step="0.01">
+    <script src="demo.js"></script>
+</body>
