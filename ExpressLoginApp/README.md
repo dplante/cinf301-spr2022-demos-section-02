@@ -9,6 +9,8 @@ This demonstrates using express, mysql, and node.js as a means to create a login
 ## Author
 
 Justin Mahone
+
 Date: March 30th, 2022
+
 Assignent: Demo
 
